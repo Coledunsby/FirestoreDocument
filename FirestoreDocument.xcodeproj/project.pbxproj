@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7AEBFB7B613A9CFF928328E /* Pods_FirestoreDocumentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A1CF19165D6491A7F7FF9E /* Pods_FirestoreDocumentTests.framework */; };
+		D969D96DF65CD1BDC221081F /* Pods_FirestoreDocument.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5375693DDFDE3DC7744344 /* Pods_FirestoreDocument.framework */; };
+		EDCCBE162114B26D00E353D5 /* FirestoreDocument.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCCBE0C2114B26D00E353D5 /* FirestoreDocument.framework */; };
+		EDCCBE1B2114B26D00E353D5 /* FirestoreDocumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBE1A2114B26D00E353D5 /* FirestoreDocumentTests.swift */; };
+		EDCCBE1D2114B26D00E353D5 /* FirestoreDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCCBE0F2114B26D00E353D5 /* FirestoreDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDCCBE272114B28A00E353D5 /* FirestoreDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBE262114B28A00E353D5 /* FirestoreDocument.swift */; };
+		EDCCBE2E2114B9C700E353D5 /* MarkupProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBE2D2114B9C700E353D5 /* MarkupProtocols.swift */; };
+		EDCCBE302114B9FB00E353D5 /* AutoEquatable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBE2F2114B9FB00E353D5 /* AutoEquatable.generated.swift */; };
+		EDCCBE322114C3C900E353D5 /* FirestoreSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBE312114C3C900E353D5 /* FirestoreSerializable.swift */; };
+		EDCCBE342114C3F400E353D5 /* FirestoreSerializableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBE332114C3F400E353D5 /* FirestoreSerializableTests.swift */; };
+		EDCCBE382114C50F00E353D5 /* FirestoreValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBE372114C50F00E353D5 /* FirestoreValue.swift */; };
+		EDCCBE3A2114C59900E353D5 /* FirestoreArrayValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBE392114C59900E353D5 /* FirestoreArrayValue.swift */; };
+		EDCCBE3C2114C5A100E353D5 /* FirestoreGeoPointValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBE3B2114C5A100E353D5 /* FirestoreGeoPointValue.swift */; };
+		EDCCBE3E2114DD7800E353D5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCCBE3D2114DD7800E353D5 /* Common.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDCCBE172114B26D00E353D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDCCBE032114B26D00E353D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDCCBE0B2114B26D00E353D5;
+			remoteInfo = FirestoreDocument;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A1CF19165D6491A7F7FF9E /* Pods_FirestoreDocumentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirestoreDocumentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1530812AA99625BC54405818 /* Pods-FirestoreDocument.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreDocument.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirestoreDocument/Pods-FirestoreDocument.debug.xcconfig"; sourceTree = "<group>"; };
+		3C60F6DCF9902EAC4F5A7577 /* Pods-FirestoreDocumentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreDocumentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirestoreDocumentTests/Pods-FirestoreDocumentTests.release.xcconfig"; sourceTree = "<group>"; };
+		41270791F0A921798C38F561 /* Pods-FirestoreDocument.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreDocument.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirestoreDocument/Pods-FirestoreDocument.release.xcconfig"; sourceTree = "<group>"; };
+		7FE6D83EF91CABF0F4C4D6CB /* Pods-FirestoreDocumentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirestoreDocumentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirestoreDocumentTests/Pods-FirestoreDocumentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA5375693DDFDE3DC7744344 /* Pods_FirestoreDocument.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirestoreDocument.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCCBE0C2114B26D00E353D5 /* FirestoreDocument.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FirestoreDocument.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCCBE0F2114B26D00E353D5 /* FirestoreDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirestoreDocument.h; sourceTree = "<group>"; };
+		EDCCBE102114B26D00E353D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCCBE152114B26D00E353D5 /* FirestoreDocumentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirestoreDocumentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCCBE1A2114B26D00E353D5 /* FirestoreDocumentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreDocumentTests.swift; sourceTree = "<group>"; };
+		EDCCBE1C2114B26D00E353D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDCCBE262114B28A00E353D5 /* FirestoreDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreDocument.swift; sourceTree = "<group>"; };
+		EDCCBE282114B70C00E353D5 /* FirestoreDocument.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; path = FirestoreDocument.podspec; sourceTree = "<group>"; };
+		EDCCBE292114B70C00E353D5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		EDCCBE2D2114B9C700E353D5 /* MarkupProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkupProtocols.swift; sourceTree = "<group>"; };
+		EDCCBE2F2114B9FB00E353D5 /* AutoEquatable.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoEquatable.generated.swift; sourceTree = "<group>"; };
+		EDCCBE312114C3C900E353D5 /* FirestoreSerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreSerializable.swift; sourceTree = "<group>"; };
+		EDCCBE332114C3F400E353D5 /* FirestoreSerializableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreSerializableTests.swift; sourceTree = "<group>"; };
+		EDCCBE372114C50F00E353D5 /* FirestoreValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreValue.swift; sourceTree = "<group>"; };
+		EDCCBE392114C59900E353D5 /* FirestoreArrayValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreArrayValue.swift; sourceTree = "<group>"; };
+		EDCCBE3B2114C5A100E353D5 /* FirestoreGeoPointValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreGeoPointValue.swift; sourceTree = "<group>"; };
+		EDCCBE3D2114DD7800E353D5 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDCCBE082114B26D00E353D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D969D96DF65CD1BDC221081F /* Pods_FirestoreDocument.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCBE122114B26D00E353D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCCBE162114B26D00E353D5 /* FirestoreDocument.framework in Frameworks */,
+				C7AEBFB7B613A9CFF928328E /* Pods_FirestoreDocumentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		822B2B0C4808F7A80DE20BAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA5375693DDFDE3DC7744344 /* Pods_FirestoreDocument.framework */,
+				12A1CF19165D6491A7F7FF9E /* Pods_FirestoreDocumentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B547A14FC3274D948F12BDF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1530812AA99625BC54405818 /* Pods-FirestoreDocument.debug.xcconfig */,
+				41270791F0A921798C38F561 /* Pods-FirestoreDocument.release.xcconfig */,
+				7FE6D83EF91CABF0F4C4D6CB /* Pods-FirestoreDocumentTests.debug.xcconfig */,
+				3C60F6DCF9902EAC4F5A7577 /* Pods-FirestoreDocumentTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDCCBE022114B26D00E353D5 = {
+			isa = PBXGroup;
+			children = (
+				EDCCBE292114B70C00E353D5 /* Package.swift */,
+				EDCCBE282114B70C00E353D5 /* FirestoreDocument.podspec */,
+				EDCCBE0E2114B26D00E353D5 /* FirestoreDocument */,
+				EDCCBE192114B26D00E353D5 /* FirestoreDocumentTests */,
+				EDCCBE0D2114B26D00E353D5 /* Products */,
+				B547A14FC3274D948F12BDF7 /* Pods */,
+				822B2B0C4808F7A80DE20BAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDCCBE0D2114B26D00E353D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCBE0C2114B26D00E353D5 /* FirestoreDocument.framework */,
+				EDCCBE152114B26D00E353D5 /* FirestoreDocumentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDCCBE0E2114B26D00E353D5 /* FirestoreDocument */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCBE2B2114B89A00E353D5 /* Sourcery */,
+				EDCCBE0F2114B26D00E353D5 /* FirestoreDocument.h */,
+				EDCCBE392114C59900E353D5 /* FirestoreArrayValue.swift */,
+				EDCCBE262114B28A00E353D5 /* FirestoreDocument.swift */,
+				EDCCBE3B2114C5A100E353D5 /* FirestoreGeoPointValue.swift */,
+				EDCCBE312114C3C900E353D5 /* FirestoreSerializable.swift */,
+				EDCCBE372114C50F00E353D5 /* FirestoreValue.swift */,
+				EDCCBE102114B26D00E353D5 /* Info.plist */,
+			);
+			path = FirestoreDocument;
+			sourceTree = "<group>";
+		};
+		EDCCBE192114B26D00E353D5 /* FirestoreDocumentTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCBE3D2114DD7800E353D5 /* Common.swift */,
+				EDCCBE1A2114B26D00E353D5 /* FirestoreDocumentTests.swift */,
+				EDCCBE332114C3F400E353D5 /* FirestoreSerializableTests.swift */,
+				EDCCBE1C2114B26D00E353D5 /* Info.plist */,
+			);
+			path = FirestoreDocumentTests;
+			sourceTree = "<group>";
+		};
+		EDCCBE2B2114B89A00E353D5 /* Sourcery */ = {
+			isa = PBXGroup;
+			children = (
+				EDCCBE2D2114B9C700E353D5 /* MarkupProtocols.swift */,
+				EDCCBE2F2114B9FB00E353D5 /* AutoEquatable.generated.swift */,
+			);
+			path = Sourcery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EDCCBE092114B26D00E353D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCCBE1D2114B26D00E353D5 /* FirestoreDocument.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EDCCBE0B2114B26D00E353D5 /* FirestoreDocument */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCCBE202114B26D00E353D5 /* Build configuration list for PBXNativeTarget "FirestoreDocument" */;
+			buildPhases = (
+				0033D0BC5F5103A4FDCD47E9 /* [CP] Check Pods Manifest.lock */,
+				EDCCBE2C2114B8B500E353D5 /* Sourcery */,
+				EDCCBE072114B26D00E353D5 /* Sources */,
+				EDCCBE082114B26D00E353D5 /* Frameworks */,
+				EDCCBE092114B26D00E353D5 /* Headers */,
+				EDCCBE0A2114B26D00E353D5 /* Resources */,
+				EDCCBE2A2114B74300E353D5 /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirestoreDocument;
+			productName = FirestoreDocument;
+			productReference = EDCCBE0C2114B26D00E353D5 /* FirestoreDocument.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDCCBE142114B26D00E353D5 /* FirestoreDocumentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDCCBE232114B26D00E353D5 /* Build configuration list for PBXNativeTarget "FirestoreDocumentTests" */;
+			buildPhases = (
+				2BE6A0553E377797BA50D4C3 /* [CP] Check Pods Manifest.lock */,
+				EDCCBE112114B26D00E353D5 /* Sources */,
+				EDCCBE122114B26D00E353D5 /* Frameworks */,
+				EDCCBE132114B26D00E353D5 /* Resources */,
+				69A79E97C2E4DB405E38B83E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDCCBE182114B26D00E353D5 /* PBXTargetDependency */,
+			);
+			name = FirestoreDocumentTests;
+			productName = FirestoreDocumentTests;
+			productReference = EDCCBE152114B26D00E353D5 /* FirestoreDocumentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDCCBE032114B26D00E353D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Cole Dunsby";
+				TargetAttributes = {
+					EDCCBE0B2114B26D00E353D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+					EDCCBE142114B26D00E353D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EDCCBE062114B26D00E353D5 /* Build configuration list for PBXProject "FirestoreDocument" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EDCCBE022114B26D00E353D5;
+			productRefGroup = EDCCBE0D2114B26D00E353D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDCCBE0B2114B26D00E353D5 /* FirestoreDocument */,
+				EDCCBE142114B26D00E353D5 /* FirestoreDocumentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDCCBE0A2114B26D00E353D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCBE132114B26D00E353D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0033D0BC5F5103A4FDCD47E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirestoreDocument-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BE6A0553E377797BA50D4C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirestoreDocumentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69A79E97C2E4DB405E38B83E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FirestoreDocumentTests/Pods-FirestoreDocumentTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirestoreDocumentTests/Pods-FirestoreDocumentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDCCBE2A2114B74300E353D5 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint lint --config $PROJECT_DIR/.swiftlint.yml --path $TARGET_NAME";
+		};
+		EDCCBE2C2114B8B500E353D5 /* Sourcery */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Sourcery;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/Sourcery/bin/sourcery \\\n--sources ${TARGET_NAME} \\\n--templates ${PODS_ROOT}/Sourcery/Templates/AutoEquatable.stencil \\\n--output ${TARGET_NAME}/Sourcery";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDCCBE072114B26D00E353D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCCBE322114C3C900E353D5 /* FirestoreSerializable.swift in Sources */,
+				EDCCBE382114C50F00E353D5 /* FirestoreValue.swift in Sources */,
+				EDCCBE302114B9FB00E353D5 /* AutoEquatable.generated.swift in Sources */,
+				EDCCBE3A2114C59900E353D5 /* FirestoreArrayValue.swift in Sources */,
+				EDCCBE272114B28A00E353D5 /* FirestoreDocument.swift in Sources */,
+				EDCCBE3C2114C5A100E353D5 /* FirestoreGeoPointValue.swift in Sources */,
+				EDCCBE2E2114B9C700E353D5 /* MarkupProtocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCCBE112114B26D00E353D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCCBE3E2114DD7800E353D5 /* Common.swift in Sources */,
+				EDCCBE342114C3F400E353D5 /* FirestoreSerializableTests.swift in Sources */,
+				EDCCBE1B2114B26D00E353D5 /* FirestoreDocumentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDCCBE182114B26D00E353D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDCCBE0B2114B26D00E353D5 /* FirestoreDocument */;
+			targetProxy = EDCCBE172114B26D00E353D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EDCCBE1E2114B26D00E353D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDCCBE1F2114B26D00E353D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDCCBE212114B26D00E353D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1530812AA99625BC54405818 /* Pods-FirestoreDocument.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W8W9HUZP5Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FirestoreDocument/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcdigital.FirestoreDocument;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDCCBE222114B26D00E353D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41270791F0A921798C38F561 /* Pods-FirestoreDocument.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = W8W9HUZP5Z;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = FirestoreDocument/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcdigital.FirestoreDocument;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDCCBE242114B26D00E353D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE6D83EF91CABF0F4C4D6CB /* Pods-FirestoreDocumentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8W9HUZP5Z;
+				INFOPLIST_FILE = FirestoreDocumentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcdigital.FirestoreDocumentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDCCBE252114B26D00E353D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C60F6DCF9902EAC4F5A7577 /* Pods-FirestoreDocumentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8W9HUZP5Z;
+				INFOPLIST_FILE = FirestoreDocumentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jcdigital.FirestoreDocumentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDCCBE062114B26D00E353D5 /* Build configuration list for PBXProject "FirestoreDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCCBE1E2114B26D00E353D5 /* Debug */,
+				EDCCBE1F2114B26D00E353D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCCBE202114B26D00E353D5 /* Build configuration list for PBXNativeTarget "FirestoreDocument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCCBE212114B26D00E353D5 /* Debug */,
+				EDCCBE222114B26D00E353D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDCCBE232114B26D00E353D5 /* Build configuration list for PBXNativeTarget "FirestoreDocumentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDCCBE242114B26D00E353D5 /* Debug */,
+				EDCCBE252114B26D00E353D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDCCBE032114B26D00E353D5 /* Project object */;
+}

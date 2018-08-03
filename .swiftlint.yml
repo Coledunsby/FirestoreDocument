@@ -1,0 +1,50 @@
+disabled_rules:
+  - cyclomatic_complexity
+  - file_length
+  - force_cast
+  - force_try
+  - function_body_length
+  - function_parameter_count
+  - identifier_name
+  - line_length
+  - nesting
+  - todo
+  - unused_closure_parameter
+
+opt_in_rules:
+  - attributes
+  - closure_end_indentation
+  - closure_spacing
+  - empty_count
+  - explicit_init
+  - fatal_error_message
+  - file_header
+  - first_where
+  - implicit_return
+  - joined_default_parameter
+  - multiline_parameters
+  - nimble_operator
+  - number_separator
+  - object_literal
+  - operator_usage_whitespace
+  - overridden_super_call
+  - pattern_matching_keywords
+  - private_outlet
+  - prohibited_super_call
+  - redundant_nil_coalescing
+  - single_test_class
+  - sorted_imports
+  - switch_case_on_newline
+  - unneeded_parentheses_in_closure_argument
+  - vertical_parameter_alignment_on_call
+
+excluded:
+  - Pods
+  - Sourcery
+
+file_header:
+  forbidden_pattern: ".?"
+
+trailing_whitespace:
+  ignores_comments: true
+  ignores_empty_lines: true
